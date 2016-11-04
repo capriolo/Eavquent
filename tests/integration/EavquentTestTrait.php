@@ -39,6 +39,16 @@ trait EavquentTestTrait
     }
 
     /** @test */
+    public function load_all_attributes_registered_for_an_entity_usign_load()
+    {
+        $company = Company::first();
+        $company->load('eav');
+
+        $this->assertTrue($company->relationLoaded('colors'));
+        $this->assertTrue($company->relationLoaded('city'));
+    }
+
+    /** @test */
     public function eagerload_all_attributes_from_withs_model_property()
     {
         $model = CompanyWithEavStub::first();

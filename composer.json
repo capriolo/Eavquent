@@ -1,5 +1,5 @@
 {
-    "name": "devio/eavquent",
+    "name": "capriolo/eavquent",
     "description": "EAV modeling package for Eloquent and Laravel.",
     "keywords": [
         "eav", "eloquent", "laravel", "dynamic", "schema", "database"
@@ -7,14 +7,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Israel Ortuño",
-            "email": "israel@devio.es"
+            "name": "Piotr Sarna",
+            "email": "piotrsarna88@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "~5.1",
-        "illuminate/database": "~5.1",
+        "illuminate/support": "5.2.*",
+        "illuminate/database": "5.2.*",
         "illuminate/validation": "~5.1",
         "illuminate/config": "~5.1"
     },
@@ -33,7 +33,7 @@
             "migrations"
         ],
         "psr-4": {
-            "Devio\\Eavquent\\": "src"
+            "Capriolo\\Eavquent\\": "src"
         }
     },
     "autoload-dev": {
