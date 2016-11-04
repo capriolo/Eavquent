@@ -1,6 +1,6 @@
 <?php
 
-namespace Devio\Eavquent\Value;
+namespace Capriolo\Eavquent\Value;
 
 use Illuminate\Support\Collection as BaseCollection;
 

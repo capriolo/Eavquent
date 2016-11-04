@@ -1,12 +1,12 @@
 <?php
 
-use Mockery as m;
-use Devio\Eavquent\Value\Value;
-use Devio\Eavquent\Value\Trash;
-use Devio\Eavquent\Value\Builder;
-use Devio\Eavquent\Value\Collection;
-use Devio\Eavquent\Attribute\Attribute;
+use Capriolo\Eavquent\Attribute\Attribute;
+use Capriolo\Eavquent\Value\Builder;
+use Capriolo\Eavquent\Value\Collection;
+use Capriolo\Eavquent\Value\Trash;
+use Capriolo\Eavquent\Value\Value;
 use Illuminate\Database\Eloquent\Model;
+use Mockery as m;
 
 class CollectionTest extends PHPUnit_Framework_TestCase
 {

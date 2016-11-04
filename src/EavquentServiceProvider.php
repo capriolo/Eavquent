@@ -1,10 +1,10 @@
 <?php
 
-namespace Devio\Eavquent;
+namespace Capriolo\Eavquent;
 
-use Devio\Eavquent\Attribute\Cache;
+use Capriolo\Eavquent\Attribute\Cache;
+use Capriolo\Eavquent\Value\Builder as ValueBuilder;
 use Illuminate\Support\ServiceProvider;
-use Devio\Eavquent\Value\Builder as ValueBuilder;
 
 class EavquentServiceProvider extends ServiceProvider
 {

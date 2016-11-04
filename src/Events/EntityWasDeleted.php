@@ -1,6 +1,6 @@
 <?php
 
-namespace Devio\Eavquent\Events;
+namespace Capriolo\Eavquent\Events;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\SoftDeletes;

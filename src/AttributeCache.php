@@ -1,6 +1,6 @@
 <?php
 
-namespace Devio\Eavquent;
+namespace Capriolo\Eavquent;
 
 use Illuminate\Support\Collection;
 

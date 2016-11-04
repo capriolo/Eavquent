@@ -34,6 +34,6 @@ class LaravelTestCase extends Orchestra\Testbench\TestCase
 
     protected function getPackageProviders($app)
     {
-        return [Devio\Eavquent\EavquentServiceProvider::class];
+        return [Capriolo\Eavquent\EavquentServiceProvider::class];
     }
 }

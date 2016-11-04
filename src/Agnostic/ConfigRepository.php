@@ -1,6 +1,6 @@
 <?php
 
-namespace Devio\Eavquent\Agnostic;
+namespace Capriolo\Eavquent\Agnostic;
 
 use Illuminate\Config\Repository;
 

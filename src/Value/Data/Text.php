@@ -1,8 +1,8 @@
 <?php
 
-namespace Devio\Eavquent\Value\Data;
+namespace Capriolo\Eavquent\Value\Data;
 
-use Devio\Eavquent\Value\Value;
+use Capriolo\Eavquent\Value\Value;
 
 class Text extends Value
 {

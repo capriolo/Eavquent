@@ -1,10 +1,10 @@
 <?php
 
-use Mockery as m;
-use Devio\Eavquent\Value\Builder;
-use Devio\Eavquent\Value\Data\Varchar;
+use Capriolo\Eavquent\Attribute\Attribute;
+use Capriolo\Eavquent\Value\Builder;
+use Capriolo\Eavquent\Value\Data\Varchar;
 use Illuminate\Database\Eloquent\Model;
-use Devio\Eavquent\Attribute\Attribute;
+use Mockery as m;
 
 class BuilderTest extends PHPUnit_Framework_TestCase
 {

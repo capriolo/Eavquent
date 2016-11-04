@@ -1,14 +1,14 @@
 <?php
 
-use Mockery as m;
-use Devio\Eavquent\Eavquent;
-use Devio\Eavquent\Interactor;
-use Devio\Eavquent\Value\Value;
-use Devio\Eavquent\Value\Builder;
-use Illuminate\Database\Eloquent\Model;
-use Devio\Eavquent\Attribute\Attribute;
+use Capriolo\Eavquent\Attribute\Attribute;
+use Capriolo\Eavquent\Eavquent;
+use Capriolo\Eavquent\Interactor;
+use Capriolo\Eavquent\Value\Builder;
+use Capriolo\Eavquent\Value\Value;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection as BaseCollection;
+use Mockery as m;
 
 class InteractorTest extends PHPUnit_Framework_TestCase
 {

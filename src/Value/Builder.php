@@ -1,8 +1,8 @@
 <?php
 
-namespace Devio\Eavquent\Value;
+namespace Capriolo\Eavquent\Value;
 
-use Devio\Eavquent\Attribute\Attribute;
+use Capriolo\Eavquent\Attribute\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection as BaseCollection;
 

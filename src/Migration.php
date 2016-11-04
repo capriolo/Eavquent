@@ -1,9 +1,9 @@
 <?php
 
-namespace Devio\Eavquent;
+namespace Capriolo\Eavquent;
 
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration as DatabaseMigration;
+use Illuminate\Database\Schema\Blueprint;
 
 abstract class Migration extends DatabaseMigration
 {

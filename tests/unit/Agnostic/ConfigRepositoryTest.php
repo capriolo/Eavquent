@@ -1,6 +1,6 @@
 <?php
 
-use Devio\Eavquent\Agnostic\ConfigRepository;
+use Capriolo\Eavquent\Agnostic\ConfigRepository;
 
 class ConfigRepositoryTest extends PHPUnit_Framework_TestCase
 {

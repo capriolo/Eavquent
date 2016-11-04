@@ -1,6 +1,6 @@
 <?php
 
-namespace Devio\Eavquent\Attribute;
+namespace Capriolo\Eavquent\Attribute;
 
 class Repository
 {

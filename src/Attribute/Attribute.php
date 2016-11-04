@@ -1,9 +1,9 @@
 <?php
 
-namespace Devio\Eavquent\Attribute;
+namespace Capriolo\Eavquent\Attribute;
 
+use Capriolo\Eavquent\Events\AttributeWasSaved;
 use Illuminate\Database\Eloquent\Model;
-use Devio\Eavquent\Events\AttributeWasSaved;
 
 class Attribute extends Model
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Devio\Eavquent\Events;
+namespace Capriolo\Eavquent\Events;
 
+use Capriolo\Eavquent\Attribute\Manager;
 use Illuminate\Container\Container;
-use Devio\Eavquent\Attribute\Manager;
 
 class AttributeWasSaved
 {

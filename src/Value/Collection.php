@@ -1,10 +1,10 @@
 <?php
 
-namespace Devio\Eavquent\Value;
+namespace Capriolo\Eavquent\Value;
 
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection as BaseCollection;
-use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 
 class Collection extends EloquentCollection
 {

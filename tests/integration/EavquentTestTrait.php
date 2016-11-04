@@ -1,6 +1,6 @@
 <?php
 
-use Devio\Eavquent\Value\Data\Varchar;
+use Capriolo\Eavquent\Value\Data\Varchar;
 
 trait EavquentTestTrait
 {
@@ -111,7 +111,7 @@ trait EavquentTestTrait
     {
         $company = Company::with('eav')->first();
 
-        $this->assertInstanceOf(\Devio\Eavquent\Value\Collection::class, $company->rawColorsObject);
+        $this->assertInstanceOf(\Capriolo\Eavquent\Value\Collection::class, $company->rawColorsObject);
     }
 
     /** @test */

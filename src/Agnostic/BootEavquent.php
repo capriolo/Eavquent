@@ -1,11 +1,11 @@
 <?php
 
-namespace Devio\Eavquent\Agnostic;
+namespace Capriolo\Eavquent\Agnostic;
 
+use Capriolo\Eavquent\Attribute\Cache;
+use Capriolo\Eavquent\AttributeCache;
 use Illuminate\Cache\FileStore;
 use Illuminate\Cache\Repository;
-use Devio\Eavquent\AttributeCache;
-use Devio\Eavquent\Attribute\Cache;
 use Illuminate\Container\Container;
 use Illuminate\Filesystem\Filesystem;
 

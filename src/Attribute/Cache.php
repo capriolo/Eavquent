@@ -1,10 +1,10 @@
 <?php
 
-namespace Devio\Eavquent\Attribute;
+namespace Capriolo\Eavquent\Attribute;
 
-use Devio\Eavquent\AttributeCache;
-use Illuminate\Support\Collection;
+use Capriolo\Eavquent\AttributeCache;
 use Illuminate\Contracts\Cache\Repository;
+use Illuminate\Support\Collection;
 
 class Cache implements AttributeCache
 {

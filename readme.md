@@ -105,7 +105,7 @@ If you are using Laravel just include the `EavquentServiceProvider` to the provi
 ```php
 'providers' => [
     ...
-    Devio\Eavquent\EavquentServiceProvider::class
+    Capriolo\Eavquent\EavquentServiceProvider::class
     ...
 ]
 ```
@@ -113,7 +113,7 @@ If you are using Laravel just include the `EavquentServiceProvider` to the provi
 Once the Service Provider is loaded, we just have to publish the package assets:
 
 ```shell
-php artisan vendor:publish --provider="Devio\Eavquent\EavquentServiceProvider"
+php artisan vendor:publish --provider="Capriolo\Eavquent\EavquentServiceProvider"
 ```
 
 And then just run the database migrations:
@@ -137,7 +137,7 @@ Eavquent has been specially made for Eloquent and simplicity has been taken very
 ```php
 class Company extends Model 
 {
-    use Devio\Eavquent\Eavquent;
+    use Capriolo\Eavquent\Eavquent;
 }
 ```
 
@@ -185,7 +185,7 @@ Eloquent ships with a `$with` which accepts an array of relationships that shoul
 ```php
 class Company extends Model
 {
-    use Devio\Eavquent\Eavquent;
+    use Capriolo\Eavquent\Eavquent;
 
     // Eager loading all the registered attributes
     protected $with = ['eav']; 

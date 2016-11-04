@@ -1,11 +1,11 @@
 <?php
 
-namespace Devio\Eavquent\Events;
+namespace Capriolo\Eavquent\Events;
 
-use Devio\Eavquent\Value\Trash;
-use Devio\Eavquent\Value\Builder;
-use Illuminate\Support\Collection;
+use Capriolo\Eavquent\Value\Builder;
+use Capriolo\Eavquent\Value\Trash;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
 
 class EntityWasSaved
 {

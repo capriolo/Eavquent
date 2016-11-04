@@ -1,9 +1,9 @@
 <?php
 
-use Mockery as m;
-use Illuminate\Support\Collection;
-use Devio\Eavquent\Attribute\Cache;
+use Capriolo\Eavquent\Attribute\Cache;
 use Illuminate\Contracts\Cache\Repository;
+use Illuminate\Support\Collection;
+use Mockery as m;
 
 class CacheTest extends PHPUnit_Framework_TestCase
 {

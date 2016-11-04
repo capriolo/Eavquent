@@ -1,8 +1,8 @@
 <?php
 
-namespace Devio\Eavquent\Attribute;
+namespace Capriolo\Eavquent\Attribute;
 
-use Devio\Eavquent\AttributeCache;
+use Capriolo\Eavquent\AttributeCache;
 
 class Manager
 {

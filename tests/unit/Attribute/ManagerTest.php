@@ -1,10 +1,10 @@
 <?php
 
-use Mockery as m;
+use Capriolo\Eavquent\Attribute\Cache;
+use Capriolo\Eavquent\Attribute\Manager;
+use Capriolo\Eavquent\Attribute\Repository;
 use Illuminate\Support\Collection;
-use Devio\Eavquent\Attribute\Cache;
-use Devio\Eavquent\Attribute\Manager;
-use Devio\Eavquent\Attribute\Repository;
+use Mockery as m;
 
 class ManagerTest extends PHPUnit_Framework_TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-use Devio\Eavquent\Migration;
+use Capriolo\Eavquent\Migration;
 
 class CreateEavValuesBooleanTable extends Migration
 {

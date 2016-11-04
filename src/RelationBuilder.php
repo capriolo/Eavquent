@@ -1,9 +1,9 @@
 <?php
 
-namespace Devio\Eavquent;
+namespace Capriolo\Eavquent;
 
+use Capriolo\Eavquent\Attribute\Attribute;
 use Closure;
-use Devio\Eavquent\Attribute\Attribute;
 use Illuminate\Database\Eloquent\Model;
 
 class RelationBuilder

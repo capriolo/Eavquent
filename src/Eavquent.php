@@ -1,14 +1,14 @@
 <?php
 
-namespace Devio\Eavquent;
+namespace Capriolo\Eavquent;
 
-use Illuminate\Support\Arr;
-use Devio\Eavquent\Value\Trash;
-use Devio\Eavquent\Value\Collection;
-use Devio\Eavquent\Attribute\Manager;
-use Devio\Eavquent\Events\EntityWasSaved;
-use Devio\Eavquent\Events\EntityWasDeleted;
+use Capriolo\Eavquent\Attribute\Manager;
+use Capriolo\Eavquent\Events\EntityWasDeleted;
+use Capriolo\Eavquent\Events\EntityWasSaved;
+use Capriolo\Eavquent\Value\Collection;
+use Capriolo\Eavquent\Value\Trash;
 use Illuminate\Contracts\Container\Container;
+use Illuminate\Support\Arr;
 
 trait Eavquent
 {

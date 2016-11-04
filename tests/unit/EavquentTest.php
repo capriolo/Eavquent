@@ -1,10 +1,10 @@
 <?php
 
-use Mockery as m;
-use Devio\Eavquent\Eavquent;
-use Devio\Eavquent\Interactor;
+use Capriolo\Eavquent\Eavquent;
+use Capriolo\Eavquent\Interactor;
 use Devio\Eavquent\Attribute\Manager;
 use Illuminate\Contracts\Container\Container;
+use Mockery as m;
 
 class EavquentTest extends PHPUnit_Framework_TestCase
 {
